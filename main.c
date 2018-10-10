@@ -9,9 +9,9 @@ int main()
     int i=0,j=0,a=0;
     char *num1,*num2;
     num1=(char*)malloc(sizeof(char));
-    num2=(char*)malloc(sizeof(char));
-    printf("tapez le premier nombres:");
-    while ((*(num1+i)=getchar())!='\n')
+    num2=(char*)malloc(sizeof(char)) ;
+    printf("tapez le premier nombres:") ;
+    while ((*(num1+i)=getchar())!="\n")
     {
         num1=(char*)realloc(num1,strlen(num1)+sizeof(char));
         i++;
